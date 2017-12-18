@@ -9,6 +9,6 @@ At first the application takes 3 CSV files as input.
 * taxis.csv: Includes the coordinates of the taxis' locations. 
 * nodes.csv: Includes the coordinates and the id of the street each node belongs to. Nodes are used to form the streets of the given area.
 
-The application uses the A* algorithm to calculate the best paths. There is an option in which the user can define a maximum number of elements that the A* search field can have. The default number of elements is 100. The application takes a new number through command line arguments.
+The application uses the A* algorithm to calculate the best paths. There is an option in which the user can define a maximum number of elements that the A* search field can have. The default number of elements is 100 although the application may take a new number through command line arguments.
 
 As an output the application creates a TaxiRoutes.kml file in which the routes of all the taxis are located. The selected taxi's route always has green color while the rest have random colors.
